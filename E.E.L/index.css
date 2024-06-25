@@ -8,12 +8,42 @@ header {
     
 }
 
+#areainicial {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Espaço entre os botões */
+    
+}
 section {
+    display: flex;
     background-color: #001e36;
-    box-shadow: 5px 5px 10px #00ffff73;
+    box-shadow: 5px 5px 10px  #00ffff63;
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
     color: #00ffff;
+    text-align: center;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input{
+    box-shadow: 2px 3px 4px #00ffff63;
+    color: #00ffff;
+    background-color: #013e6d;
+    padding: 2px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+input:hover {
+    color: #001e36;
+    background-color: #00ffff63;
 }
