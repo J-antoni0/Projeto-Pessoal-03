@@ -1,0 +1,38 @@
+body {
+    background-color: #013e6d;
+}
+header {
+    font-family: 'Osvaldo', sans-serif;
+    text-align: center;
+    color: #00ffff;
+    
+}
+
+section {
+    display: flex;
+    background-color: #001e36;
+    box-shadow: 5px 5px 10px  #00ffff63;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    color: #00ffff;
+    text-align: center;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input {
+    color: #00ffff;
+    box-shadow: 2px 2px 4px ;
+    background-color: #00ffff63;
+    border: none;
+}
+
+input:hover {
+    background-color: #00ffff63;
+    color: #00ffff;
+    box-shadow: none;
+}
