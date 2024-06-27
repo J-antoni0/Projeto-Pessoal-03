@@ -8,12 +8,6 @@ header {
     
 }
 
-#areainicial {
-    display: flex;
-    justify-content: center;
-    gap: 30px; /* Espaço entre os botões */
-    
-}
 section {
     display: flex;
     background-color: #001e36;
@@ -30,22 +24,24 @@ section {
     
 }
 
-input{
-    box-shadow: 2px 3px 4px #00ffff63;
+input {
     color: #00ffff;
+    box-shadow: 2px 2px 4px ;
     background-color: #013e6d;
-    padding: 2px;
-    width: 150px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-
-    
 }
 
 input:hover {
-    box-shadow: none;
-    color: #00ffff;
     background-color: #013e6d;
+    color: #00ffff;
+    box-shadow: none;
+
 }
+
+input#botao-cadastrar {
+    cursor: pointer;
+}
+
+input#botao-voltar {
+    cursor: pointer;
+}-

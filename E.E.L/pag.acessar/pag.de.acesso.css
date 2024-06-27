@@ -24,15 +24,25 @@ section {
     
 }
 
+
 input {
     color: #00ffff;
     box-shadow: 2px 2px 4px ;
-    background-color: #00ffff63;
+    background-color: #013e6d;
     border: none;
 }
 
 input:hover {
-    background-color: #00ffff63;
+    background-color: #013e6d;
     color: #00ffff;
     box-shadow: none;
+
+}
+
+input#botaoacessar {
+    cursor: pointer;
+}
+
+input#botaovoltar {
+    cursor: pointer;
 }
