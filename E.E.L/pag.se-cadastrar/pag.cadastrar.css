@@ -25,25 +25,32 @@ section {
 }
 
 #area-cadastro-1 {
-    margin-bottom: 60px;
+    
     padding: 20px;
 }
 
 .form-group-1 {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 80px;
     margin: 7px;
 }
 
 .form-group-2 {
     display: flex;
     align-items: center;
-    gap: 17px;
+    gap: 87px;
     margin: 7px;
 }
 
 .form-group-3 {
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    margin: 7px;
+}
+
+.form-group-4 {
     display: flex;
     align-items: center;
     gap: 21px;
