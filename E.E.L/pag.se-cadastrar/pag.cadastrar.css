@@ -10,6 +10,7 @@ header {
 
 section {
     display: flex;
+    flex-direction: column;
     background-color: #001e36;
     box-shadow: 5px 5px 10px  #00ffff63;
     border-radius: 10px;
@@ -21,9 +22,38 @@ section {
     height: 200px;
     align-items: center;
     justify-content: center;
-    
 }
 
+#area-cadastro-1 {
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+.form-group-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 7px;
+}
+
+.form-group-2 {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin: 7px;
+}
+
+.form-group-3 {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    margin: 7px;
+}
+
+#area-cadastro-2 {
+    display: flex;
+    gap: 10px;
+}
 input {
     color: #00ffff;
     box-shadow: 2px 2px 4px ;
@@ -40,8 +70,9 @@ input:hover {
 
 input#botao-cadastrar {
     cursor: pointer;
+
 }
 
 input#botao-voltar {
     cursor: pointer;
-}-
+}

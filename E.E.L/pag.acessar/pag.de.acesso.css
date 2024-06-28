@@ -24,6 +24,11 @@ section {
     
 }
 
+p#p-botoesfinais {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
 
 input {
     color: #00ffff;
