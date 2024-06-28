@@ -5,7 +5,7 @@
     function botaoacessar() {
         
         if (texto1.value == 0 || texto2.value == 0) {
-            window.alert ('ERRO! Certifique-se de que as credenciais estão corretas.')
+            window.alert ('Verifique as Credenciais Digitadas!')
         }
 
     texto1.focus()
