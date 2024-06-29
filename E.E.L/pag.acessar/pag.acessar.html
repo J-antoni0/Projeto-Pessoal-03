@@ -12,11 +12,22 @@
         <h1>Seja Bem-Vindo(a) ao Sistema</h1>
     </header>
     <section>
-        <div>
-            <p>Usuário: <input type="text" name="usuario" id="usuario" autocomplete="off"></p>
-            <p>Senha: <input type="password" name="senha" id="senha" autocomplete="off"> <input type="checkbox" name="versenha" id="versenha" onclick="versenha()"></p> 
-            <p id="p-botoesfinais"><abbr title="Acessar ao Sistema"><input type="button" value="Acessar" id="botaoacessar" onclick="botaoacessar()"></abbr> <abbr title="Voltar ao Menu Inicial"><a href="../index.html" rel="prev"><input type="button" value="Voltar" id="botaovoltar"></abbr></a></p>
-        </div>
+            <div id="caixasdeescrita">
+                <label for="user">Usuário:</label> 
+
+                <div id="seletor">
+                <input type="text" name="usuario" id="usuario" autocomplete="off">
+                </div>
+
+                <label for="">Senha:</label> 
+
+                <div id="seletor">
+                <input type="password" name="senha" id="senha" autocomplete="off"> 
+                <input type="checkbox" name="versenha" id="versenha" onclick="versenha()">
+                </div>
+            <div>
+                <p id="p-botoesfinais"><abbr title="Acessar ao Sistema"><input type="button" value="Acessar" id="botaoacessar" onclick="botaoacessar()"></abbr> <abbr title="Voltar ao Menu Inicial"><a href="../index.html" rel="prev"><input type="button" value="Voltar" id="botaovoltar"></abbr></a></p>
+            </div>
     </section>
     <script src="l.pag.acessar.js"></script>
 </body>

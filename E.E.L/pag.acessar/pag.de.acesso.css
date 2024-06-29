@@ -24,6 +24,37 @@ section {
     
 }
 
+#caixasdeescrita {
+    display: flex;
+    align-items: center;
+    margin: 7px;
+}
+
+#caixasdeescrita label {
+    min-width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#seletor input[type='password'],
+#seletor input[type='text'] {
+width: calc(100% - 40px);
+padding-right: 30px;
+}
+
+#seletor input[type='checkbox'] {
+position: absolute;
+right: 45px;
+top: 50%;
+margin: -1px;
+transform: translateY(-50%);
+cursor: pointer;
+}
+
+input#versenha {
+    box-shadow: none;
+}
+
 p#p-botoesfinais {
     display: flex;
     gap: 10px;
