@@ -16,24 +16,30 @@
     </header>
     <section>
         <div id="area-cadastro-1">
-                <div class="form-group-1">
+                <div class="form-group">
                     <label for="username">Usuário:</label>
                     <input type="text" name="usuário" id="usuário" autocomplete="off">
                 </div>
                 
-                <div class="form-group-2">
+                <div class="form-group">
                     <label for="email">E-mail:</label> 
                     <input type="text" name="e-mail" id="e-mail" autocomplete="off">
                 </div>
 
-                <div class="form-group-3">
+                <div class="form-group">
                     <label for="senha">Nova Senha:</label>
-                    <input type="text" name="senha" id="senha" autocomplete="off">
+                    <div class="password-container">
+                        <input type="password" name="senha" id="senha" autocomplete="off">
+                        <input type="checkbox" name="showPassword" id="showPassword" onclick="togglePasswordVisibility()">
+                    </div>
                 </div>
 
-                <div class="form-group-4">
+                <div class="form-group">
                     <label for="senha">Confirmar Senha:</label>
-                    <input type="text" name="senha" id="novasenha" autocomplete="off">
+                    <div class="password-container">
+                        <input type="password" name="senha" id="novasenha" autocomplete="off">
+                        <input type="checkbox" name="showPasswordConfirm" id="showPasswordConfirm" onclick="togglePasswordVisibilityConfirm()">
+                    </div>
                 </div>
         </div>
         <div id="area-cadastro-2">

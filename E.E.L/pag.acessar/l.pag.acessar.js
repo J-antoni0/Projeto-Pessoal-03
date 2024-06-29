@@ -4,6 +4,14 @@
     texto1.value = ' ';
     texto2.value = ' ';
     
+    function versenha() {
+        if (texto2.type === 'password'){
+            texto2.type = 'text'
+        } else {
+            texto2.type = 'password'
+        }
+    }
+
     function botaoacessar() {
         
         if (texto1.value == 0 || texto2.value == 0) {

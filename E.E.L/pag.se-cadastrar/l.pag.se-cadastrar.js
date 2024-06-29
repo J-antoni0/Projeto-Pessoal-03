@@ -4,6 +4,22 @@
     let senha = document.querySelector('input#senha');
     let novasenha = document.querySelector('input#novasenha');
 
+    function togglePasswordVisibility() {
+        if (senha.type === "password") {
+            senha.type = "text";
+        } else {
+            senha.type = "password";
+        }
+    }
+
+    function togglePasswordVisibilityConfirm(){
+        if (novasenha.type === "password") {
+            novasenha.type = "text";
+        } else {
+            novasenha.type = "password";
+        }
+    }
+
     function botaocadastrar() {
         
         if (usuario.value == 0 || email.value == 0 || senha.value == 0 || novasenha.value == 0) {

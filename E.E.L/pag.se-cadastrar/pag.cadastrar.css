@@ -24,36 +24,47 @@ section {
     justify-content: center;
 }
 
+.form-group {
+    display: flex;
+    align-items: center;
+    margin: 7px;
+}
+
+.form-group label {
+    min-width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.password-container {
+display: flex;
+align-items: center;
+position: relative;
+width: 100%;
+}
+
+.password-container input[type='password'],
+.password-container input[type='text'] {
+width: calc(100% - 40px);
+padding-right: 30px;
+}
+
+.password-container input[type='checkbox'] {
+position: absolute;
+right: 45px;
+top: 50%;
+margin: -1px;
+transform: translateY(-50%);
+cursor: pointer;
+}
+
+#showPassword,
+#showPasswordConfirm {
+    box-shadow: none;
+}
+
 #area-cadastro-1 {
     padding: 20px;
-}
-
-.form-group-1 {
-    display: flex;
-    align-items: center;
-    gap: 80px;
-    margin: 7px;
-}
-
-.form-group-2 {
-    display: flex;
-    align-items: center;
-    gap: 87px;
-    margin: 7px;
-}
-
-.form-group-3 {
-    display: flex;
-    align-items: center;
-    gap: 53px;
-    margin: 7px;
-}
-
-.form-group-4 {
-    display: flex;
-    align-items: center;
-    gap: 21px;
-    margin: 7px;
 }
 
 #area-cadastro-2 {
@@ -62,7 +73,7 @@ section {
 }
 input {
     color: #00ffff;
-    box-shadow: 2px 2px 4px ;
+    box-shadow: 2px 2px 4px;
     background-color: #013e6d;
     border: none;
 }
@@ -74,11 +85,8 @@ input:hover {
 
 }
 
-input#botao-cadastrar {
+input#botao-cadastrar,
+inpu#botao-voltar {
     cursor: pointer;
 
-}
-
-input#botao-voltar {
-    cursor: pointer;
 }
