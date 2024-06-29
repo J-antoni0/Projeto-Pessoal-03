@@ -7,7 +7,7 @@
     function botaocadastrar() {
         
         if (usuario.value == 0 || email.value == 0 || senha.value == 0 || novasenha.value == 0) {
-            window.alert ('Certifique-se de que todos os Campos Estejam Preenchidos !\n\nNome de Usuário deve conter no minímo 6 Digítos.\nFormato do E-mail deve estar Correto.\nSenha deve conter no Minímo 6 Digítos ("Nova Senha" e "Confirmar Senha" devem estar iguais).');
+            window.alert ('Certifique-se de que todos os Campos Estejam Preenchidos !');
             usuario.value = '';
             email.value = '';
             senha.value = '';
@@ -38,6 +38,13 @@
             senha.value = '';
             novasenha.value = '';
             senha.focus();
+            return;
+        } else {
+            window.alert (`Cadastro Realizado com Sucesso!\n\nUsuário: ${usuario.value}\nSenha: ${senha.value}`);
+            usuario.value = '';
+            email.value = '';
+            senha.value = '';
+            novasenha.value = '';
             return;
         }
         
