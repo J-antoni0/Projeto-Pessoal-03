@@ -1,8 +1,8 @@
     
     let texto1 = document.querySelector('input#usuario');
     let texto2 = document.querySelector('input#senha');
-    texto1.value = ' ';
-    texto2.value = ' ';
+    texto1.value = '';
+    texto2.value = '';
     
     function versenha() {
         if (texto2.type === 'password'){
