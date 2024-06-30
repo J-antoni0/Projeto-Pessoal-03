@@ -44,11 +44,11 @@ width: 100%;
 }
 
 #senha {
-    width: 140px;
+    width: 141px;
 }
 
 #novasenha {
-    width: 140px;
+    width: 141px;
 }
 
 .password-container input[type='password'],
@@ -60,7 +60,7 @@ padding-right: 30px;
 .password-container input[type='checkbox'] {
 position: absolute;
 right: 19px;
-top: 55%;
+top: 56%;
 margin: -1px;
 transform: translateY(-50%);
 cursor: pointer;
@@ -72,7 +72,7 @@ cursor: pointer;
 }
 
 #area-cadastro-1 {
-    padding: 20px;
+    padding: 15px;
 }
 
 #area-cadastro-2 {

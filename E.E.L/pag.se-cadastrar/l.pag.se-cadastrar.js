@@ -56,7 +56,7 @@
             senha.focus();
             return;
         } else {
-            window.alert (`Cadastro Realizado com Sucesso!\n\nUsuário: ${usuario.value}\nSenha: ${senha.value}`);
+            window.alert (`Cadastro Realizado com Sucesso!`)
             usuario.value = '';
             email.value = '';
             senha.value = '';
