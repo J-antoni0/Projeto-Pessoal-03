@@ -43,6 +43,14 @@ position: relative;
 width: 100%;
 }
 
+#senha {
+    width: 140px;
+}
+
+#novasenha {
+    width: 140px;
+}
+
 .password-container input[type='password'],
 .password-container input[type='text'] {
 width: calc(100% - 40px);
@@ -51,8 +59,8 @@ padding-right: 30px;
 
 .password-container input[type='checkbox'] {
 position: absolute;
-right: 45px;
-top: 50%;
+right: 19px;
+top: 55%;
 margin: -1px;
 transform: translateY(-50%);
 cursor: pointer;
@@ -88,5 +96,4 @@ input:hover {
 input#botao-cadastrar,
 input#botao-voltar {
     cursor: pointer;
-
 }
